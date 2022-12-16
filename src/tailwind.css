@@ -1,0 +1,34 @@
+  /* tailwind css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1 {
+    @apply text-3xl;
+  }
+  h2 {
+    @apply text-2xl;
+  }
+  h3 {
+    @apply text-lg;
+  }
+  h4 {
+    @apply text-[18px];
+  }
+}
+
+@layer components {
+  .input {
+    @apply w-full py-2 px-4 rounded-sm outline-0 border-[1px] border-[#4a525d] border-solid  bg-[#404954] text-sm;
+  }
+  .label {
+    @apply font-bold;
+  }
+  .btn1 {
+    @apply bg-[#727cf5] px-4 py-2 h-full w-full m-0 border-r-0 rounded-r-lg shadow-md text-white font-sans font-normal shadow-[#727cf580];
+  }
+  .backdrop {
+    @apply fixed top-0 left-0 w-full h-full z-[100] bg-[#00000080];
+  }
+}

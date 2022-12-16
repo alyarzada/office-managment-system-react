@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700&display=swap");
+
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box !important;
+}
+
+body {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+body::-webkit-scrollbar {
+  width: 15px;
+    background-color: #373c42;
+  }
+
+body::-webkit-scrollbar-thumb {
+  background-color: #282d30;
+  border-radius: 2px;
+}
+
+.translate-middle {
+  transform: translate(-50%, -50%) !important;
+}
+
+/*** tailwind extends ***/
+
+.ml-26per {
+  margin-left: 25.3%;
+  margin-top: 4.5%;
+}
+
+.ml-3per {
+  margin-left: 3%;
+  margin-top: 4.5%;
+}
+
+.recharts-layer tspan {
+  font-size: 8px !important;
+  color: #8391a2 !important;
+}

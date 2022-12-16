@@ -1,0 +1,26 @@
+input[type="file"]::-webkit-file-upload-button {
+  background: none;
+  border: none;
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 20px;
+  transform: translateY(-20px);
+}
+
+.css-1s2u09g-control {
+  background-color: #404954 !important;
+  border-color: #4a525d !important;
+  appearance: none;
+}
+
+.css-1rhbuit-multiValue {
+  background-color: #727cf5;
+}
+
+.react-datepicker-popper {
+  background: transparent;
+}
+
+.react-datepicker__triangle {
+  display: none;
+}

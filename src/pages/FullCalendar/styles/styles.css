@@ -1,0 +1,85 @@
+/* fullcalendar */
+
+.fc-daygrid-day.fc-day.fc-day-tue.fc-day-past {
+  border-color: 1px solid red !important;
+}
+
+#external-events {
+  padding: 0 10px;
+  background: transparent;
+}
+
+#external-events .fc-event {
+  margin: 1em 0;
+  cursor: move;
+  border-radius: 3px;
+  padding: 0.5rem;
+}
+
+.fc-scrollgrid.fc-scrollgrid-liquid {
+  border-color: #464f5b !important;
+}
+
+.fc-col-header-cell.fc-day {
+  border-color: #464f5b !important;
+}
+
+.fc-daygrid-day.fc-day {
+  border-color: #464f5b !important;
+}
+
+/* 1px solid #464f5b */
+
+.fc-scrollgrid-section.fc-scrollgrid-section-body.fc-scrollgrid-section-liquid
+  td {
+  border-color: #464f5b !important;
+}
+
+.fc-scrollgrid.fc-scrollgrid-liquid > thead > tr > th {
+  border-color: #464f5b !important;
+}
+
+.fc-col-header-cell-cushion {
+  color: #aab8c5 !important;
+}
+
+.fc-daygrid-day-number {
+  color: #aab8c5 !important;
+}
+
+.fc-scrollgrid.fc-scrollgrid-liquid {
+  border-radius: 3px;
+}
+
+.fc-toolbar-title {
+  color: whitesmoke !important;
+  font-size: 25px !important;
+}
+
+.fc-daygrid-event-harness {
+  color: wheat !important;
+}
+
+.fc--button.fc-button.fc-button-primary {
+  display: none;
+}
+
+.fc-listWeek-button.fc-button.fc-button-primary {
+  display: none;
+}
+
+.fc-dayGridMonth-button {
+  border-radius: 3px !important;
+}
+
+.fc-timeGridWeek-button {
+  border-radius: 3px !important;
+}
+
+.fc-timeGridDay-button {
+  border-radius: 3px !important;
+}
+
+.text-dark {
+  color: #6c757d !important;
+}
